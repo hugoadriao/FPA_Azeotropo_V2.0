@@ -21,7 +21,7 @@ print("""
     MB: Methanol-Benzene 1Atm""")
 nome = input()
 v_esp = 0
-Gera_mistura(nome.uppercase())
+Gera_mistura(nome.upper())
 temp_min = 283
 temp_max = 473
 frac_min = 0
